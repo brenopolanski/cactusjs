@@ -1,4 +1,4 @@
-define(['../libs/jaws/jaws'], 
+define(['jaws'], 
 	function () {
 		'use strict';
 

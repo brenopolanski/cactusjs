@@ -1,4 +1,4 @@
-define(['../../../../Cactus'], 
+define(['Cactus'], 
 	function (C) {
 		'use strict';
 

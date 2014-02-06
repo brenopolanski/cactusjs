@@ -1,4 +1,4 @@
-define(['../js/Sprite'], 
+define(['Sprite'], 
 	function (Sprite) {
 		describe('One player', function () {
 			var player;

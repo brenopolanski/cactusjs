@@ -1,5 +1,5 @@
-require(['../../libs/jasmine-1.3.1/jasmine'], function () {
-require(['../../libs/jasmine-1.3.1/jasmine-html'], function () {
+require(['jasmine'], function () {
+require(['jasmine_html'], function () {
 
 require(['CactusSpec'], 
 	function () {
