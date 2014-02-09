@@ -16,9 +16,9 @@ define(['Cactus'],
 		};		
 
 		return {
-			keyPressed: keyPressed,
-			onKeyUp: onKeyUp,
-			onKeyDown: onKeyDown
-		}
+		    keyPressed: keyPressed,
+		    onKeyUp: onKeyUp,
+		    onKeyDown: onKeyDown
+		};
 	}
 );

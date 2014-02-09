@@ -1,6 +1,6 @@
 define(['jaws'], 
 	function () {
-		'use strict';
+	    'use strict';
 
 		var CACTUS = CACTUS || jaws;
 
