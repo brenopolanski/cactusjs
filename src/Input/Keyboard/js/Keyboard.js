@@ -13,13 +13,13 @@ define(['Cactus'],
         * @param {Array} key Array of key Codes letters or words
         * @return (Boolean) Boolean if keys pressed
         */
-        var arrayKeysPressed = function (key) {
+        var arrayKeysPressed = function (keys) {
             var str = '',
                 i = 0,
-                len = key.length;
+                len = keys.length;
 
             for (; i < len; i += 1) {
-                str += key[i] + ' ';
+                str += keys[i] + ' ';
             }
 
             return C.pressed(str);
