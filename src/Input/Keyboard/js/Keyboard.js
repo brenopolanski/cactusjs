@@ -10,19 +10,12 @@ define(['Cactus'],
         * Check if array keys are pressed
         * 
         * @method arrayKeysPressed
-        * @param {Array} key Array of key Codes letters or words
+        * @param {Array} keys Array of key Codes letters or words
         * @return (Boolean) Boolean if keys pressed
         */
         var arrayKeysPressed = function (keys) {
-            var str = '',
-                i = 0,
-                len = keys.length;
-
-            for (; i < len; i += 1) {
-                str += keys[i] + ' ';
-            }
-
-            return C.pressed(str);
+            keys = keys.join(' ');
+            return C.pressed(keys.toString());
 		},
 
         /**
