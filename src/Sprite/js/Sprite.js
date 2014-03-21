@@ -1,21 +1,24 @@
-define(['Cactus'], 
-	function (C) {
-		'use strict';
-		
-		var _sprite;
+define(['Cactus'],
+    function (C) {
+        'use strict';
 
-		function Sprite(color, x, y, width, height) {
-			_sprite = new C.Sprite({
-				color: color,
-				x: x,
-				y: y,
-				width: width,
-				height: height
-			});
+        // your Sprite constructor
+        function Sprite(color, x, y, width, height) {
+            // call super
+            C.Sprite.call(this, {
+                color: color,
+                x: x,
+                y: y,
+                width: width,
+                height: height
+            });
+        }
 
-			return _sprite;
-		}
+        // makes your Sprite inherits from Jaws's Sprite
+        Sprite.prototype = Object.create(C.Sprite.prototype);
+        Sprite.prototype.constructor = C.Sprite;
 
-		return Sprite;
-	}
+        // exports
+        return Sprite;
+    }
 );
