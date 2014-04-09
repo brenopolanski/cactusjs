@@ -10,7 +10,10 @@
                 unused: true
             },
             files: {
-                src: ['Cactus.js', 'src/Input/Keyboard/js/Keyboard.js', 'src/Sprite/js/Sprite.js']
+                src: ['Cactus.js',
+                      'src/Input/Keyboard/js/Keyboard.js',
+                      'src/Plugin/Sprite/js/Sprite.js',
+                      'src/Plugin/Text/js/Text.js']
             }
         }
     });

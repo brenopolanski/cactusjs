@@ -1,9 +1,19 @@
-define(['jaws'], 
-	function () {
-	    'use strict';
+/**
+* @author       Breno Polanski <breno.polanski@gmail.com>
+* @copyright    2014 CactusJS, All Rights Reseverd.
+* @license      {@link http://cactusjs.mit-license.org}
+*
+* Release version 1.0.0
+*/
 
-		var CACTUS = CACTUS || jaws;
+/**
+* Determines namespace CACTUS.
+* @namespace CACTUS
+*/
+define(['jaws'], function() {
+	'use strict';
 
-		return CACTUS;
-	}
-);
+	var CACTUS = CACTUS || jaws;
+
+	return CACTUS;
+});
