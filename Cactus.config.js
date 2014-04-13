@@ -14,7 +14,7 @@ require.config({
 	    Cactus: 'cactusjs/Cactus',
 	    Keyboard: 'cactusjs/src/Input/Keyboard/js/Keyboard',
 	    Parallax: 'cactusjs/src/Plugin/Parallax/js/Parallax',
-	    Sprite: 'cactusjs/src/Sprite/js/Sprite',
+	    Sprite: 'cactusjs/src/Plugin/Sprite/js/Sprite',
 	    Text: 'cactusjs/src/Plugin/Text/js/Text'
 	}
 });
