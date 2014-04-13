@@ -8,7 +8,7 @@
 * Manage a parallax scroller with different layers.
 * @class Parallax
 */
-define(['Cactus'], function(Cactus) {
+define(['Cactus'], function(C) {
     'use strict';
 
     /**
@@ -19,7 +19,7 @@ define(['Cactus'], function(Cactus) {
     * @param {Number} scale - Scale factor for all layers (2 will double everything and so on).
     */
     function Parallax(repeat_x, repeat_y, scale) {
-        Cactus.Parallax.call(this, {
+        C.Parallax.call(this, {
             repeat_x: repeat_x,
             repeat_y: repeat_y,
             scale: scale
@@ -27,12 +27,12 @@ define(['Cactus'], function(Cactus) {
     }
 
     // Creates a new object with the specified prototype object and properties.
-    Parallax.prototype = Object.create(Cactus.Parallax.prototype);
-    // Add the constructor of C.Text for Text.prototype.constructor.
-    Parallax.prototype.constructor = Cactus.Parallax;
+    Parallax.prototype = Object.create(C.Parallax.prototype);
+    // Add the constructor of Cactus.Parallax for Parallax.prototype.constructor.
+    Parallax.prototype.constructor = C.Parallax;
 
     /**
-    * Add a new layer to the parallax scroller.
+    * Add a news layers to the parallax scroller.
     *
     * @method addLayer
     * @param {String} image - Path image.
