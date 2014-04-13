@@ -35,7 +35,7 @@ define(['Cactus'], function(C) {
     * Add a news layers to the parallax scroller.
     *
     * @method addLayer
-    * @param {String} image - Path image.
+    * @param {Image} image - Image or string pointing to an asset ('parallax.png').
     * @param {Number} damping - Higher the number, the slower it will scroll with regards to other layers, defaults to 0.
     */
     Parallax.prototype.addLayers = function(image, damping) {
