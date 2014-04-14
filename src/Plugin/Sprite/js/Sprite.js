@@ -34,15 +34,36 @@ define(['Cactus'], function(C) {
     // Add the constructor of Cactus.Parallax for Parallax.prototype.constructor.
     Sprite.prototype.constructor = C.Sprite;
 
+    /**
+    * Color if set, draws a rectangle of dimensions rect() with specified color or gradient (linear or radial).
+    *
+    * @method setColor
+    * @param {String} color - Color of rectangle.
+    * @example 
+    * For example: name color (blue, red, green), hexadecimal (#ff0000), rgb(39, 174, 96) and rgba(39, 174, 96,1.0).
+    */
     Sprite.prototype.setColor = function(color) {
         this.color = color;
     };
 
+    /**
+    * Determines width and height of rectangle.
+    *
+    * @method setRectSize
+    * @param {Number} width - Width of rectangle.
+    * @param {Number} height - Height of rectangle.
+    */
     Sprite.prototype.setRectSize = function(width, height) {
         this.width = width;
         this.height = height;
     };
 
+    /**
+    * Set transparency sprite: true (fully transparent) or false (no transparency).
+    *
+    * @method setVisible
+    * @param {Boolean} isAlpha - True or false sprite visible.
+    */
     Sprite.prototype.setVisible = function(isAlpha) {
         if (isAlpha) {
             this.alpha = 1;
@@ -52,6 +73,12 @@ define(['Cactus'], function(C) {
         }
     };
 
+    /**
+    * Determines angle in degrees (0-360).
+    *
+    * @method setAngle
+    * @param {Number} angle - Angle in degrees (0-360).
+    */
     Sprite.prototype.setAngle = function(angle) {
         this.angle = angle;
     };
