@@ -81,7 +81,7 @@ define(['Cactus'], function(C) {
     * Set transparency text: true (fully transparent) or false (no transparency).
     *
     * @method setVisible
-    * @param {Boolean} bool - True or false text visible.
+    * @param {Boolean} isAlpha - True or false text visible.
     */
     Text.prototype.setVisible = function(isAlpha) {
         if (isAlpha) {
@@ -145,10 +145,10 @@ define(['Cactus'], function(C) {
     * Word will wrap entire words separated by spaces or hyphens.
     *
     * @method setWordWrap
-    * @param {Boolean} bool - True or false wrapping.
+    * @param {Boolean} isWordWrap - True or false wrapping.
     */
-    Text.prototype.setWordWrap = function(bool) {
-        this.wordWrap = bool;
+    Text.prototype.setWordWrap = function(isWordWrap) {
+        this.wordWrap = isWordWrap;
     };
 
     /**
