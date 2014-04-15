@@ -2,12 +2,7 @@
     grunt.initConfig({
         jshint: {
             options: {
-                curly: true,
-                eqnull: true,                
-                plusplus: true,
-                smarttabs: true,
-                strict: true,
-                unused: true
+                jshintrc: '.jshintrc'
             },
             files: {
                 src: [
