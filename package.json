@@ -1,0 +1,33 @@
+{
+  "name": "cactusjs",
+  "version": "0.1.0",
+  "description": "HTML5 Game Framework",
+  "homepage": "http://cactusjs.github.io/cactusjs-site/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CactusJS/cactusjs"
+  },
+  "keywords": [
+	"CactusJS",
+	"HTML5",
+	"Games",
+	"Framework",
+	"Windows 8",
+	"Windows Phone 8",
+	"Visual Studio"
+  ],
+  "author": {
+	"name": "Breno Polanski",
+	"email": "breno.polanski@gmail.com",
+	"web": "http://brenopolanski.com",
+	"twitter": "brenopolanski"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CactusJS/cactusjs/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0"
+  }
+}

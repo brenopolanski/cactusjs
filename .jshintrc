@@ -1,0 +1,14 @@
+{
+  "curly": true,
+  "eqnull": true,                
+  "plusplus": true,
+  "smarttabs": true,
+  "strict": true,
+  "unused": true,
+  "browser": true,
+  "globals": {
+    "requirejs": true,
+    "require": true,
+    "define": true
+  }
+}
