@@ -32,7 +32,7 @@ define(['Cactus'], function(C) {
     // Creates a new object with the specified prototype object and properties.
     Sprite.prototype = Object.create(C.Sprite.prototype);
     // Add the constructor of Cactus.Parallax for Parallax.prototype.constructor.
-    Sprite.prototype.constructor = C.Sprite;
+    Sprite.prototype.constructor = Sprite;
 
     /**
     * Color if set, draws a rectangle of dimensions rect() with specified color or gradient (linear or radial).
