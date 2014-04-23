@@ -1,10 +1,31 @@
 # CactusJS
 
-CactusJS HTML5 Game Framework.
+CactusJS is an open source framework for developing games with HTML5 for platform Microsoft (Windows 8 and Windows Phone 8).
 
-![image cactus](https://raw.githubusercontent.com/CactusJS/cactusjs-site/master/img/cactus.png)
+![image CactusJS](https://raw.githubusercontent.com/CactusJS/cactusjs/gh-assets/cactusjs-html5-game-framework.png)
 
 > IN DEVELOPMENT
+
+## Setup GruntJS Tasks
+
+1. Install [NodeJS](http://nodejs.org/download/).
+2. Install [GruntJS](http://gruntjs.com/):
+
+    ```sh
+    $ [sudo] npm install -g grunt-cli
+    ```
+
+3. Install local dependencies:
+
+    ```sh
+    $ npm install
+    ```
+
+4. Run tests with jshint.
+
+    ```sh
+    $ grunt
+    ```
 
 ## Contributing
 
@@ -19,6 +40,18 @@ English is the universal language nowadays, so please don't create or comment on
 ## History
 
 For detailed changelog, see [Releases](https://github.com/CactusJS/cactusjs/releases).
+
+## Credits
+
+* Msc. Adriano Araújo Santos (<adriano.nego@gmail.com>) - Teacher Mentor
+* Luiz Paulo Brandão (<luizpbills@gmail.com>) - Developer
+* Matheus Ferreira Fernandes (<llmatheusferreirall@gmail.com>) - Designer
+* Renato Morais (<renatoajmorais@gmail.com>) - Designer
+
+I gratefully acknowledge the following open source projects:
+
+* [JAWSJS](https://github.com/ippa/jaws) canvas engine by Ippa Lix (LGPL license)
+* [TILED](https://github.com/bjorn/tiled) map editor by Thorbjørn Lindeijer
 
 ## License
 
