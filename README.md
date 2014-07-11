@@ -45,6 +45,7 @@ For detailed changelog, see [Releases](https://github.com/CactusJS/cactusjs/rele
 
 * Msc. Adriano Araújo Santos (<adriano.nego@gmail.com>) - Teacher Mentor
 * Luiz Paulo Brandão (<luizpbills@gmail.com>) - Developer
+* Marcos Antonio dos Santos Silva (<marcostrumpet99@gmail.com>) - Developer
 * Matheus Ferreira Fernandes (<llmatheusferreirall@gmail.com>) - Designer
 * Renato Morais (<renatoajmorais@gmail.com>) - Designer
 
