@@ -8,13 +8,13 @@
     "url": "https://github.com/CactusJS/cactusjs"
   },
   "keywords": [
-	"CactusJS",
-	"HTML5",
-	"Games",
-	"Framework",
-	"Windows 8",
-	"Windows Phone 8",
-	"Visual Studio"
+	"cactusjs",
+	"html5",
+	"games",
+	"framework",
+	"windows8",
+	"windows-phone8",
+	"visual-studio"
   ],
   "author": {
 	"name": "Breno Polanski",
