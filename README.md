@@ -2,7 +2,7 @@
 
 CactusJS is an open source framework for developing games with HTML5 for platform Microsoft (Windows 8 and Windows Phone 8).
 
-![image CactusJS](https://raw.githubusercontent.com/CactusJS/cactusjs/gh-assets/cactusjs-html5-game-framework.png)
+![image CactusJS](https://raw.githubusercontent.com/brenopolanski/cactusjs/gh-assets/cactusjs-html5-game-framework.png)
 
 > IN DEVELOPMENT
 
@@ -56,4 +56,4 @@ I gratefully acknowledge the following open source projects:
 
 ## License
 
-[MIT License](http://cactusjs.mit-license.org) © CactusJS
+[MIT License](https://cactusjs.mit-license.org) © CactusJS
